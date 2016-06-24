@@ -1,5 +1,3 @@
-
-require "byebug"
 require "redis"
 
 module Ankusa
