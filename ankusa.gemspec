@@ -13,6 +13,7 @@ Gem::Specification.new do |s|
   s.homepage = "https://github.com/bmuller/ankusa"
   s.require_paths = ["lib"]
   s.add_dependency('fast-stemmer', '>= 1.0.0')
+  s.add_dependency('redis')
   s.add_development_dependency("rake")
   s.add_development_dependency("mongo", "= 1.6.0")
   s.requirements << "Either hbaserb >= 0.0.3 or cassandra >= 0.7"
